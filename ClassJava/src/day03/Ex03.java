@@ -16,9 +16,9 @@ public class Ex03 {
 				break;
 			}
 			if (num%100>=50) {	
-				System.out.println((quo+1)*100-num+"을(를) 더하면 "+(quo+1)*100+" 이 됩니다.");
+				System.out.println((quo+1)*100-num+"을(를) 더하면   "+(quo+1)*100+" 이 됩니다.");
 			}else {
-				System.out.println(num%100+"을(를) 빼면"+quo*100+" 이 됩니다.");
+				System.out.println(num%100+"을(를) 빼면  "+quo*100+" 이 됩니다.");
 			}
 			
 		}
