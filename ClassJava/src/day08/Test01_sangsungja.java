@@ -31,13 +31,13 @@ package day08;
 				2. 반드시 생성자 함수의 첫문장으로 사용해야 한다.
 					==> 다른문장이 앞에 오면 에러가 발생한다.
  */
-public class Test01 {
+public class Test01_sangsungja {
 	int no1;
 	int no2;
 	int no3;
 	int no4;
-	Test01 t1 = new Test01();
-	public Test01() {
+	Test01_sangsungja t1 = new Test01_sangsungja();
+	public Test01_sangsungja() {
 		/*
 		this.no1 = 10;
 		this.no2 = 20;
@@ -51,7 +51,7 @@ public class Test01 {
 		// 다른형태로 정의 해놓은 생성자 함수를 호출할 수 있는 유일한 방법
 		// 반드시 생성자함수의 첫 문장으로만 사용가능 
 	}
-	public Test01(int no1, int no2, int no3, int no4) {
+	public Test01_sangsungja(int no1, int no2, int no3, int no4) {
 		this.no1 = no1; // this를 통해 전역변수 no1과 매개변수 no1을 구분할 수 있다.
 		this.no2 = no2; // 
 		this.no3 = no3; // 
@@ -63,7 +63,7 @@ public class Test01 {
 	}
 
 	public static void main(String[] args) {
-		new Test01();
+		new Test01_sangsungja();
 	}
 
 }

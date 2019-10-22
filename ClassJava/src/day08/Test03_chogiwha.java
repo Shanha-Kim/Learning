@@ -1,6 +1,6 @@
 package day08;
 
-public class Test03 {
+public class Test03_chogiwha {
 /*
 	멤버 변수의 초기화
 		==> 멤버 변수는 자동 초기화 된다.
@@ -28,19 +28,19 @@ public class Test03 {
 	static int num;
 	static {num=999;}
 	String str;
-	public Test03() {
-		new Test03("홍길동"); //이건 무슨의미? - heap영역에 새로운 객체 생성(str="홍길동"인)
-		Test03 a = new Test03("홍길동");
+	public Test03_chogiwha() {
+		new Test03_chogiwha("홍길동"); //이건 무슨의미? - heap영역에 새로운 객체 생성(str="홍길동"인)
+		Test03_chogiwha a = new Test03_chogiwha("홍길동");
 		System.out.println("no : "+no+" | num : "+num+" | str : "+str); 
 		//32번 라인에서 test03에 의해 정의된 str은 
 		System.out.println("no : "+no+" | num : "+num+" | str : "+a.str);
 	}
-	public Test03(String str) {
+	public Test03_chogiwha(String str) {
 		this.str = str;
 	}
 
 	public static void main(String[] args) {
-		new Test03();
+		new Test03_chogiwha();
 		//System.out.println(no);
 	}
 	

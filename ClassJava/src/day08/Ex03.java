@@ -25,7 +25,7 @@ public class Ex03  {
 		for (int i=0; i<2; i++) {
 			rec = new Rec(i+5,i+3);
 			tri = new Tri(i+8,i+2);
-			cir = new Cir(i+9);
+			cir = new Cir(i+5);
 			arr[i] = tri;
 			arr[i+2] = rec;
 			arr[i+4] = cir;
@@ -46,7 +46,7 @@ public class Ex03  {
 			area = getA();
 		}
 		public double getA() {
-			return w*h*0.5;
+			return w*h;
 		}
 		
 	}
@@ -57,7 +57,7 @@ public class Ex03  {
 			area = getA();
 		}
 		public double getA() {
-			return w*h;
+			return w*h*0.5;
 		}
 	}
 	class Cir extends Dohyung{

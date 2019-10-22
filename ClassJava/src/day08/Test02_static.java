@@ -1,6 +1,6 @@
 package day08;
 
-public class Test02 {
+public class Test02_static {
 /*
 	static 속성
 		==> static 영역에 생겨지는 함수나 변수를 말한다.
@@ -41,7 +41,7 @@ public class Test02 {
 			static 함수 안에서는 static 멤버 + 인스턴스의 사용할 수 있다.
 			일반 함수 안에서는 일반멤버와 static멤버도 사용할 수 있다.
  */
-	public Test02() {
+	public Test02_static() {
 	}
 	private int no1;
 	public static void main(String[] args) {

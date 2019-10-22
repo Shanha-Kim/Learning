@@ -67,9 +67,9 @@ package day08;
 				2. 접근지정자는 같거나 넓은 방향으로 ...
 				3. 예외처리는 같거나 좁은 방향으로...
  */
-public class Test04 {
+public class Test04_inherit {
 
-	public Test04() {
+	public Test04_inherit() {
 		Grand hal = new Grand();
 		Father apa = new Father();
 		Son adle = new Son();
@@ -90,7 +90,7 @@ public class Test04 {
 	}
 
 	public static void main(String[] args) {
-		new Test04();
+		new Test04_inherit();
 	}
 	class Grand{
 		int age = 80;
