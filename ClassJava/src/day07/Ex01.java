@@ -20,9 +20,7 @@ public class Ex01 {
 			if (y%400==0) {
 				System.out.println(y+"년은 "+"윤년입니다.");
 				break;
-			}else if(y%100==0) {
-				System.out.println(y+"년은 "+"평년입니다.");
-			}else if(y%4==0) {
+			}else if(y%100!=0 && y%4==0) {
 				System.out.println(y+"년은 "+"윤년입니다.");
 				break;
 			}else {
