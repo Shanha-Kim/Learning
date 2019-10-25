@@ -44,7 +44,7 @@ import javax.swing.JPanel;
 					class Inner{} ==> 전역 Inner Class
 					void abc(){
 						int b;
-						class Inner2 {} == 지역 Inner Class
+						class Inner2 {} ==> 지역 Inner Class
 					}
 				}
 				특징]

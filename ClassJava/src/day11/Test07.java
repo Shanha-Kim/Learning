@@ -2,11 +2,8 @@ package day11;
 import java.util.*;
 public class Test07 {
 /*
-	예제]
-		한글자의 문자를 입력 받아서
-		그 문자가 0~9까지면 받은 문자를 출력하고
-		다른 문자거나 두글자 이상인 경우 예외처리를 하세요
-		(강제로 예외를 발생)
+	문제1]
+		문자열 배열에 "123","456"
  */
 	public Test07() {
 		Scanner sc = new Scanner(System.in);
