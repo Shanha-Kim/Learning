@@ -9,7 +9,7 @@ import java.util.regex.*;
 		정규식 패턴을 만들고 검사해서 결과를 출력하세요.
  */
 public class Ex01 {
- 
+
 	public Ex01() {
 		String id = "aaD2ef123";
 		Pattern form = Pattern.compile("(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])[\\w\\d]{5,15}");
