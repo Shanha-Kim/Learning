@@ -18,7 +18,8 @@ package day09;
 		***
 		instanceof
 			==> 특정 클래스의 인스턴스를 만들면 주소가 만들어지느데
-				ㅂㅈㄷ
+				이 주소가 어떤 클래스의 소속인지 알아내는 연산자
+				결과는 true 또는 false 가 나온다.
 				
 			형식]
 				주소 instanceof 클래스이름
@@ -31,7 +32,6 @@ public class Test03 {
 	public Test03() {
 		Object[] o = {1, 3.14, "abcd", 'a', true};
 		System.out.println("1 : "+ ("123" instanceof String));
-		System.out.println("2 : "+ ((Integer)10 instanceof Integer));
 		System.out.println("2 : "+ ((Integer)10 instanceof Integer));
 		
 		for(int i=0; i<5; i++) {
@@ -47,6 +47,7 @@ public class Test03 {
 				System.out.println("문자 : " + o[i]);
 			}
 		}
+		System.out.println(o[1] instanceof Object);
 	}
 
 	public static void main(String[] args) {
